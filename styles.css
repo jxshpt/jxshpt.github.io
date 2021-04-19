@@ -1,0 +1,53 @@
+body {
+    background-color: whitesmoke;
+    color: black
+  }
+  .dark-mode {
+    background-color: black;
+    color: whitesmoke;
+  }
+  title {
+    display: none;
+  }
+  h1 {
+    text-align: center;
+    font-family: Impact, sans-serif;
+  }
+  h2 {
+    text-align: left;
+    font-family: Impact, sans-serif;
+  }
+  p {
+    text-align: left;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  }
+  .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .themeButton {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    background-color: gray;
+    color: black; 
+    border: 2px solid black;
+    border-radius: 25px;
+  }
+  .themeButton:hover {
+    background-color: dimgray;
+  }
+  .themeButton:focus{
+    background-color: black;
+    border: white;
+  }
+  
