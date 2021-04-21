@@ -10,6 +10,18 @@ html {
   font-family: Arial;
 }
 
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
 /* Style tab links */
 .tablink {
   background-color: #555;
@@ -45,4 +57,8 @@ html {
 
 #About {
   background-color: #555;
+}
+
+#Theme{
+  background-color: coral;
 }
