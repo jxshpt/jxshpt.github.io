@@ -12,22 +12,6 @@ body, html {
   font-family: Arial;
 }
 
-.buttonDark {
-  background-color: #555;
-  color: black;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  font-size: 17px;
-  width: 25%;
-}
-
-.dark-mode {
-  color: white;
-}
-
 /* Style tab links */
 .tablink {
   background-color: #555;
@@ -54,11 +38,8 @@ body, html {
 }
 
 #About {background-color: #bf8fef;}
-.dark-mode {background-color: #731dc9;}
 #Portfolio {background-color: #ef8fef;}
-.dark-mode {background-color: #c91dc9;}
 #Contact {background-color: #ef8fbf;}
-.dark-mode {background-color: #c91d73;}
 </style>
 </head>
 <body>
@@ -66,7 +47,6 @@ body, html {
 <button class="tablink" onclick="openPage('About', this, '#bf8fef')" id="defaultOpen">About</button>
 <button class="tablink" onclick="openPage('Portfolio', this, '#ef8fef')">Portfolio</button>
 <button class="tablink" onclick="openPage('Contact', this, '#ef8fbf')">Contact</button>
-<button class="buttonDark" onclick="toggleStyle"></button>
 
 <div id="About" class="tabcontent">
   <h3>Home</h3>
@@ -100,12 +80,6 @@ function openPage(pageName,elmnt,color) {
 
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
-
-function toggleStyle() {
-  var element = document.body;
-  element.classList.toggle("dark-mode");
-}
-
 </script>
    
 </body>
